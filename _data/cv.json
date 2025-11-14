@@ -1,152 +1,188 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Moldir Azhimukhanbet",
+    "email": "moldir.azhimukhanbet@nu.edu.kz",
+    "phone": "+7-771-317-90-47",
+    "website": "https://molidier.github.io",
+    "summary": "BS in Computer Science at Nazarbayev University (Class of 2026), RTL Design & Verification Engineer at Texer.AI, interested in computer architecture, hardware design, and AI/ML systems.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Astana",
+      "countryCode": "KZ",
+      "region": "Akmola"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Molidier",
+        "url": "https://github.com/Molidier"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "moldir-azhimukhanbet",
+        "url": "https://linkedin.com/in/moldir-azhimukhanbet"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "name": "Texer.AI (Hardware Verification & EDA Startup)",
+      "position": "RTL Design and Verification Engineer",
+      "website": "",
+      "startDate": "2024-09",
+      "endDate": "",
+      "summary": "Designing and verifying a custom 16-bit processor and tooling around it, with FPGA-based validation and verification infrastructure.",
+      "highlights": [
+        "Implemented a 16-bit 'Bitty' processor with a custom 21-instruction ISA in synthesizable Verilog, translating architectural specification to RTL.",
+        "Designed an assembly-to-assembly translator from RISC-V32E to the custom 16-bit ISA, achieving ~95% code density while preserving functional correctness.",
+        "Validated the processor for tapeout by implementing UART and Load-Store Unit on a DE1-SoC FPGA, achieving 140 MHz operation in 526 ALMs.",
+        "Implemented an I²C Master for Tang Nano 9K to SSD1306 OLED communication with a memory-mapped frame buffer for real-time visualization of processor state."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "name": "MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)",
+      "position": "UGRIP Research Intern",
+      "website": "",
+      "startDate": "2025-06",
+      "endDate": "2025-10",
+      "summary": "Researched LLM-based assembly transpilation across x86, ARMv8, and RISC-V, focusing on robustness and cross-ISA correctness.",
+      "highlights": [
+        "Analyzed 200+ programs across x86, ARMv8, and RISC-V to identify systematic weaknesses in instruction semantics preservation and register allocation.",
+        "Established a taxonomy of 25 recurring failure patterns in instruction semantics, operand encoding, and control flow.",
+        "Designed a synthetic program generation pipeline that produced 400k C programs compiling to diverse assembly patterns, improving transpiler accuracy by ~8% on held-out cross-ISA benchmarks."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "name": "MAVERIC Lab, Nazarbayev University",
+      "position": "Teaching Assistant & Lab Developer – Microarchitecture Design and Verification",
+      "website": "",
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "summary": "TA and lab developer for Kazakhstan’s first hardware design course on microarchitecture and verification.",
+      "highlights": [
+        "Supported 18 students in completing working processor designs as part of the course.",
+        "Developed UART and Load-Store Unit lab modules for DE1-SoC FPGA and mentored 20+ students in RTL debugging.",
+        "Created a cocotb-based verification framework for Tiny Tapeout submissions, reducing onboarding time by ~70%."
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "Nazarbayev University",
+      "area": "B.S. in Computer Science — CGPA 3.68/4.0 (Top 3% of cohort)",
+      "studyType": "",
+      "startDate": "2022",
+      "endDate": "2026",
+      "gpa": null,
+      "courses": [
+        "Micro-architecture Design and Verification",
+        "Computer Systems and Organization",
+        "Operating Systems",
+        "Computer Networks",
+        "Internet of Things",
+        "Micro-controllers",
+        "Data Structures and Algorithms"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Hardware Design & Verification",
+      "level": "",
+      "keywords": [
+        "SystemVerilog",
+        "Verilog",
+        "cocotb",
+        "Verilator",
+        "Icarus Verilog",
+        "GTKWave",
+        "FPGA",
+        "DE1-SoC",
+        "Tang Nano 9K",
+        "UART",
+        "I²C",
+        "Wishbone"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "GitHub",
+        "Quartus",
+        "Gowin EDA",
+        "Make",
+        "Hugging Face",
+        "vLLM"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Computer Architecture & Microarchitecture",
+      "keywords": [
+        "Custom ISAs",
+        "Processor design",
+        "Verification"
+      ]
+    },
+    {
+      "name": "ML for Systems & Systems for ML",
+      "keywords": [
+        "LLM-based program translation",
+        "Compiler-aware ML",
+        "Robustness"
+      ]
+    },
+    {
+      "name": "Edge AI & Educational Systems",
+      "keywords": [
+        "STT–LLM–TTS pipelines",
+        "Resource-constrained deployment",
+        "Language learning systems"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Spaghetti-O: O2 Optimization Level CISC to RISC Transpilation",
+      "publisher": "",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Under submission (2026). Co-authored work on improving robustness and correctness of CISC-to-RISC transpilation at the -O2 optimization level."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Microarchitecture Design and Verification",
+      "institution": "MAVERIC Lab, Nazarbayev University",
+      "date": "2025-01-01",
+      "role": "Teaching Assistant & Lab Developer",
+      "description": "Developed UART and Load-Store Unit FPGA labs on DE1-SoC, mentored 20+ students in RTL debugging, and supported 18 students in completing working processor designs."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Custom 16-bit Processor & Teaching Labs",
+      "category": "hardware & teaching",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/Molidier/rv32e-to-bitty",
+      "description": "Bitty 16-bit processor with custom 21-instruction ISA, RISC-V32E→Bitty asm-to-asm translator, Tiny Tapeout integration, and FPGA-based microarchitecture teaching labs."
     }
   ]
 }
