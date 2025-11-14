@@ -1,14 +1,19 @@
 ---
-title: "Paper Title Number 1"
+title: "Spaghetti-O: O2 Optimization Level CISC→RISC Transpilation"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2026-01-01-spaghetti-o-o2-cisc-risc-transpilation
+excerpt: "We analyze failure modes of LLM-based transpilers at -O2, focusing on cross-ISA correctness across x86, ARMv8, and RISC-V."
+date: 2026-01-01
+venue: "Under submission"
+slidesurl: ""          # e.g., "/files/spaghetti-o-slides.pdf"
+paperurl: ""           # e.g., "/files/spaghetti-o-paper.pdf"
+bibtexurl: ""          # e.g., "/files/spaghetti-o.bib"
+citation: "Azhimukhanbet, M. et al. (2026). \"Spaghetti-O: O2 Optimization Level CISC→RISC Transpilation.\" Under submission."
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This work studies the robustness and correctness of LLM-based assembly transpilers operating at the **-O2 optimization level** for CISC→RISC translation. Using a curated and synthetically-augmented benchmark that spans **x86, ARMv8, and RISC-V**, we:
+
+- Build a **taxonomy of recurrent failure modes**, including mis-handled calling conventions, broken control-flow, and incorrect flag/condition semantics.  
+- Introduce a **program generation pipeline** that produces diverse C programs whose compiled assembly stresses specific instruction patterns and optimization interactions.  
+- Show that targeted augmentation using these synthetic programs can **improve cross-ISA translation accuracy** on held-out benchmarks, especially for tricky patterns such as loop unrolling, strength reduction, and instruction fusion at -O2.
