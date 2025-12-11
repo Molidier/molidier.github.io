@@ -6,9 +6,6 @@ permalink: /publication/2026-01-01-spaghetti-o-o2-cisc-risc-transpilation
 excerpt: "We analyze failure modes of LLM-based transpilers at -O2, focusing on cross-ISA correctness across x86, ARMv8, and RISC-V."
 date: 2026-01-01
 venue: "Under submission"
-slidesurl: ""          # e.g., "/files/spaghetti-o-slides.pdf"
-paperurl: ""           # e.g., "/files/spaghetti-o-paper.pdf"
-bibtexurl: ""          # e.g., "/files/spaghetti-o.bib"
 citation: "Azhimukhanbet, M. et al. (2026). \"Spaghetti-O: O2 Optimization Level CISC→RISC Transpilation.\" Under submission."
 ---
 
