@@ -1,12 +1,11 @@
 ---
-title: "Spaghetti-O: O2 Optimization Level CISC→RISC Transpilation"
+title: "Collored commentary"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-spaghetti-o-o2-cisc-risc-transpilation
 excerpt: "We analyze failure modes of LLM-based transpilers at -O2, focusing on cross-ISA correctness across x86, ARMv8, and RISC-V."
 date: 2026-01-01
 venue: "Under submission"
-citation: "Azhimukhanbet, M. et al. (2026). \"Spaghetti-O: O2 Optimization Level CISC→RISC Transpilation.\" Under submission."
 ---
 
 This work studies the robustness and correctness of LLM-based assembly transpilers operating at the **-O2 optimization level** for CISC→RISC translation. Using a curated and synthetically-augmented benchmark that spans **x86, ARMv8, and RISC-V**, we:

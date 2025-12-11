@@ -2,7 +2,6 @@
 title: "RTL Design and Verification Engineer & Teaching Labs"
 excerpt: "Bitty Tiny Tapeout integration, RISC-V→Bitty translator, I²C OLED driver, and microarchitecture labs.
 collection: portfolio
-permalink: /portfolio/
 ---
 
 This portfolio item groups several of my hardware design and teaching projects around a custom 16-bit processor (“Bitty”), FPGA bring-up, and microarchitecture education.
