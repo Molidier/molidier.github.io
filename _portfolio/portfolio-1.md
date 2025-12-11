@@ -1,6 +1,6 @@
 ---
 title: "RTL Design and Verification Engineer & Teaching Labs"
-excerpt: "Bitty Tiny Tapeout integration, RISC-V→Bitty translator, I²C OLED driver, and microarchitecture labs.
+excerpt: "Bitty Tiny Tapeout integration, RISC-V→Bitty translator, I²C OLED driver, and microarchitecture labs."
 collection: portfolio
 ---
 
