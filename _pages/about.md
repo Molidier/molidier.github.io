@@ -22,7 +22,7 @@ I am actively exploring opportunities for research internships and Master’s/Ph
 ## Research Interests
 
 - Microarchitecture design and hardware verification  
-- LLMs for program translation and compiler/optimization tasks  
-- Systems for ML & ML for systems (resource- and reliability-aware)  
 - GPU/accelerator and FPGA-based prototyping  
+- Systems for ML & ML for systems (resource- and reliability-aware)  
+- LLMs for program translation and compiler/optimization tasks  
 - Open-source hardware and tooling for teaching & learning  
